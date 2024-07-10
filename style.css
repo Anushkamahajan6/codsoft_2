@@ -15,7 +15,9 @@ nav{
     background-color: rgb(51, 51, 136);
 }
 .left{
-    font-size: 1.5rem;}
+    font-size: 1.5rem;
+ color:rgb(5, 5, 39);
+}
 nav ul{
     display: flex;
     justify-content: center;
@@ -77,10 +79,55 @@ h1{
 margin-top: 20px;
 margin-left:45%;
 width: 100;
-background-color: rgb(179, 179, 241);
+background-color: rgb(88, 88, 218);
+color: rgb(2, 2, 44);
 font-size:14;
 border-radius: 8px;
 }
 .abouttext .btn:hover{
     color:rgb(6, 6, 207);
+}
+.container{
+    padding: 60px;
+}
+.servicelist{
+ display: grid;
+ display: flex;
+ grid-gap:40px;
+ margin-top:30px;
+
+}
+.servicelist div{
+background-color:transparent;
+padding:30px;
+font-size:13px;
+font-weight: 13px;
+border-radius:30px;
+box-shadow: 1px 1px 20px blue,1px 1px 40px blue;
+}
+.servicelist div i{
+    font-size:28px;
+    margin-bottom: 20px;
+}
+.servicelist div h1{
+    margin-left:0;
+    font-size:30 ;
+    margin-bottom: 15px;
+}
+.servicelist div a{
+    text-decoration: none;
+    color: black;
+    margin-top:40px;
+}
+.servicelist div a:hover{
+    color:blue;
+}
+.ser{
+    margin-top:0;
+    text-decoration: underline;
+    font-size: xx-large;
+    justify-content: center;
+    justify-items: center;
+    margin-left:35%;
+    margin-bottom:50px;
 }
