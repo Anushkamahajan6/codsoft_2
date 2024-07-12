@@ -131,3 +131,62 @@ box-shadow: 1px 1px 20px blue,1px 1px 40px blue;
     margin-left:35%;
     margin-bottom:50px;
 }
+.contactcont{
+    display: flex;
+}
+.contactleft{
+    width:100%;
+}
+.contactleft h1{
+    margin-bottom:25px ;
+    text-decoration:underline;
+}
+.contactleft p i{
+    color: rgb(1, 1, 49);
+    margin-right:10px;
+    font-size: 25px;
+    margin-left: 35px;
+}
+.contactleft p{
+    font-size: x-large;
+}
+.socioicons{
+    margin-left:35px;
+    margin-top:20px;
+}
+.socioicons a{
+    margin-right:15px;
+    font-size: 25px;
+    color: rgb(1, 1, 24);
+}
+.socioicons a:hover{
+    color: rgb(252, 247, 247);
+}
+.contactbtn button{
+    margin-top:30px ;
+    margin-left: 35px;
+    background-color: rgb(157, 157, 235);
+    color: rgb(4, 4, 58);
+    font-size: large;
+    border-radius: 12px;
+    width:130;
+    border-color: rgb(1, 1, 48);
+}
+.contactright form{
+    width:80%;
+    margin-top:40px;
+    margin-left:50px;
+}
+form input,form textarea,form button{
+    width:80%;
+    border: 0;
+    outline:none ;
+    padding:15px;
+    margin: 10px;
+    background-color: rgb(52, 52, 185);
+    font-size: 18px;
+    border-radius: 8px;
+}
+form ::placeholder{
+    color:black;
+}
