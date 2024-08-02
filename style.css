@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: rgb(120, 120, 233);
+    background-color: rgb(155, 155, 230);
     color: rgb(8, 2, 15);
     font-family: "Poppins", sans-serif;
 }
@@ -16,7 +16,7 @@ nav{
 }
 .left{
     font-size: 1.5rem;
- color:rgb(5, 5, 39);
+ color:rgb(225, 225, 243);
 }
 nav ul{
     display: flex;
